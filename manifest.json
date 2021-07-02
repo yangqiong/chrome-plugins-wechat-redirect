@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "微信跳转淘宝",
+  "description": "微信PC端自动跳转淘宝",
+  "version": "1.1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://weixin110.qq.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
